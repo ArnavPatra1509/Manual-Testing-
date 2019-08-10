@@ -1,0 +1,25 @@
+SBI Defect
+==============================================
+
+Defect Title: Wrong display of balance after money transfer 
+
+Expected Result: Money in the account was Rs15000 after money transfer of Rs3000 the remaining balance displayed should be Rs12000
+
+Actual Result: Money in the account was Rs15000 after money transfer of Rs3000 the remaining balance displayed is Rs9000
+
+Steps to reproduce defect: 
+1)Open sbi login page
+2)Enter the right credentials and login to the account
+3)Go to beneficiary saved
+4)Choose the benificiary to whom the money is to be sent
+5)Click on the amount to be sent
+6)Enter Rs3000 in the amount to be sent
+7)Enter the profile password
+8)OTP will be sent to the registered mobile number
+9)Enter the OTP which is sent to the mobile number
+10)Verify the OTP	
+11)Wait for the transaction to complete
+12)Check the balance
+13)Deducted amount is not the same as the amount entered.
+
+
